@@ -9,7 +9,6 @@ def root():
 
 @app.route('/1', methods = ['GET'])
 def optional():
-
     # URL末尾のIDを受け取って、IDに対応するデータを取ってきたりする
     return make_response(jsonify({'ID': 1}, 200))
 
